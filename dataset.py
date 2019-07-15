@@ -22,10 +22,10 @@ class PopulationDataset(Dataset):
             H = 16
             W = 8
             num_node = H * W
-            raw_data = json.load(open("population/flow_bike_nyc_regular.json"))
+            raw_data = json.load(open("flow/flow_bike_nyc_regular.json"))
         elif division == 'irregular':
             num_node = 82
-            raw_data = json.load(open("population/flow_bike_nyc_irregular.json"))
+            raw_data = json.load(open("flow/flow_bike_nyc_irregular.json"))
 
         dataset = np.zeros((C, len_t, num_node), dtype=np.float32)
         data1 = raw_data['inflow']
