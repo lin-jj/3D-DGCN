@@ -6,14 +6,14 @@ An implementation of 3D-DGCN: 3D Dynamic Graph Convolutional Network for Crowd F
 
 Our datasets is from the [NYC Bike](https://www.citibikenyc.com/system-data). We obtained road network and 9 categories of PoIs from [OpenStreatMap](https://www.openstreetmap.org/#map=4/36.96/104.17). In two datasets, the city is devided into 128 regular regions and 82 irregular regions, respectively. Each dataset contains 1448 time intervals, spanning from Jul. 1st to Sept. 30th, 2017.
 
-# Requirements
+## Requirements
 
 - python 2.7
 - PyTorch 0.2.0
 - NumPy
 - JSON
 
-# Project Structure
+## Project Structure
 
 - /flow
   - flow_bike_nyc_regular.json contains the regular dataset
@@ -30,6 +30,6 @@ Our datasets is from the [NYC Bike](https://www.citibikenyc.com/system-data). We
 - /gcn.py is the implementation of our neural network
 - /dataset.py loads the dataset
 
-# Usage
+## Usage
 
 > python main.py
