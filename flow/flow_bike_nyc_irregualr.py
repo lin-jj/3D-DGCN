@@ -30,8 +30,7 @@ def isPoiWithinPoly(poi, boundary):
         s_poi = poly[i]
         e_poi = poly[i+1]
         if isRayIntersectsSegment(poi, s_poi, e_poi):
-            count += 1  # 有交点就加1
-
+            count += 1
     return count % 2 == 1
 
 
