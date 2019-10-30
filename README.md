@@ -1,6 +1,6 @@
 # 3D-DGCN
 
-An implementation of 3D-DGCN: 3D Dynamic Graph Convolutional Network for Crowd Flow Prediction. The paper is submitted to ICDE 2020.
+An implementation of 3D-DGCN. The paper is submitted to ICDE 2020.
 
 ## Datasets
 
