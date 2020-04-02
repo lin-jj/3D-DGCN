@@ -1,7 +1,6 @@
 # 3D-DGCN
 
-An implementation of 3D-DGCN. The paper is submitted to ICDE 2020.
-
+An implementation of 3D Dynamic Graph Convolutional Neural Network.
 ## Datasets
 
 Our datasets is from the [NYC Bike](https://www.citibikenyc.com/system-data). We obtained road network and 9 categories of PoIs from [OpenStreatMap](https://www.openstreetmap.org/#map=4/36.96/104.17). In two datasets, the city is devided into 128 regular regions and 82 irregular regions, respectively. Each dataset contains 1448 time intervals, spanning from Jul. 1st to Sept. 30th, 2017.
